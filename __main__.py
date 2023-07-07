@@ -1,5 +1,19 @@
 # -*- coding: UTF-8 -*-
-""" Conversor de imagens """
+""" Conversor de imagens básico criado com PIL e Tkinter.
+    - Nome: IMG Convert
+    - Versão: alpha
+    - Autor (e-mail): luizrdererita@gmail.com
+    - Pode converter um arquivo de imagem único;
+    - Pode converter todas as imagens em um diretório selecionado;
+    - Nas próximas versões:
+        * Possibilidade de usar o App em dois modos: Terminal e GUI;
+        * Possibilidade de selecionar várias imagens específicas em
+        um diretório;
+        * Preview das imagens selecionadas;
+        * Dialog de loading exibindo o progresso das conversões;
+        * Ajustes para o melhor desempenho do App;
+        
+"""
 
 from tkinter import *
 from tkinter.filedialog import askopenfile, askdirectory
