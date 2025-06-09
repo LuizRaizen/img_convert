@@ -1,0 +1,3 @@
+python -m cli.cli_app -i "C:\Users\luizd\OneDrive\Imagens\Desenhos\" -o "C:\Users\luizd\OneDrive\Imagens\Desenhos\" -f "png"
+
+imgconvert -i "C:\Users\luizd\OneDrive\Imagens\Desenhos\" -o "C:\Users\luizd\OneDrive\Imagens\Desenhos\" -f "png"        
